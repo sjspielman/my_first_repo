@@ -13,6 +13,6 @@ library(tidyverse)
 
 
 ```{r}
-ggplot(iris, aes(x = Sepal.Length)) + geom_histogram() -> p
+ggplot(iris, aes(x = Sepal.Length)) + geom_histogram(fill = "blue") -> p
 ggsave("practice_plot.png", p)
 ```
